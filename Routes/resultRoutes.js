@@ -3,7 +3,7 @@ import { saveResult, getResults } from "../controllers/resultController.js";
 
 const router = express.Router();
 
-router.post("/results", saveResult); // Save result
-router.get("/results", getResults); // Fetch all results
+router.post("/results", saveResult); 
+router.get("/results", getResults); 
 
 export default router;

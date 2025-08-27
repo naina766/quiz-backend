@@ -1,6 +1,5 @@
 import Result from "../models/Result.js";
 
-// Save result
 export const saveResult = async (req, res) => {
   try {
     const { email, score, domain_wise_score } = req.body;
@@ -18,7 +17,6 @@ export const saveResult = async (req, res) => {
   }
 };
 
-// Get results
 export const getResults = async (req, res) => {
   try {
     const results = await Result.find();

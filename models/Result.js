@@ -11,8 +11,6 @@ const resultSchema = new mongoose.Schema(
       required: true,
     },
     domain_wise_score: {
-      // type: Map,
-      // of: Number,
       type: Object,
       required: true,
     },
